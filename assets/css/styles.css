@@ -28,7 +28,7 @@ h1{
 .contact-head{
     font-family: 'Abril Fatface', sans-serif;
     font-size: 25px;
-    max-height: 250px;
+    max-height: 350px;
     margin-left: 0;
     width: 63%;
     color: #FF7F50;
@@ -62,9 +62,7 @@ h1{
     color:#191970; 
     font-size: 16px;
 }
-.rounded-circle{
-    border: 5px solid rgb(175,238,238);
-}
+
 .separator{
     min-height: 100px;
 }
@@ -76,14 +74,6 @@ h1{
 section{
     margin: 0 auto;
 }
-.card-img-top{
-    max-width: 100%;
-    max-height: 300px;
-}
-.card-img-overlay:hover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(80%);
-}
 .card-text{
     background-color: #FF7F50;
     color: black;
@@ -91,15 +81,6 @@ section{
     width: 100%;
     margin: 0;
     text-align: center;
-}
-.card-img-overlay{
-    padding:  15px 0;
-}
-.d-flex{
-    padding: 2px;
-}
-.flex-fill{
-    height: auto;
 }
 #portfolio{
     min-height: 600px;
