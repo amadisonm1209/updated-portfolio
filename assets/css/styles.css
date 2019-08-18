@@ -1,0 +1,156 @@
+body {
+    background-color: white;
+}
+header{
+    max-width: 100%;
+}
+
+h1{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 65px;
+    margin: 0;
+    color: #FF7F50;
+}
+.heading, .contact-head{
+    background-color: white;
+    opacity: .7;
+    width: 60%;
+    margin: 50px 0;
+    padding-left: 50px;
+}
+.contact-head{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 25px;
+    max-height: 250px;
+    margin-left: 0;
+    width: 63%;
+    color: #FF7F50;
+    padding: 5px;
+
+}
+.contact-me{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.lead{
+    color: #191970;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    
+}
+.welcome{
+    display: none;
+    color: white;
+    padding-left: 20px;
+}
+#about{
+    min-height: 700px;
+    margin-bottom: 50px;
+    background-color: #F5F5DC;
+    font-family: 'Raleway', sans-serif;
+    color:#191970; 
+    font-size: 16px;
+}
+.rounded-circle{
+    border: 5px solid rgb(175,238,238);
+}
+.separator{
+    min-height: 100px;
+}
+.pic{
+    max-width: 300px;
+    max-height: auto;
+    float: right;
+}
+section{
+    margin: 0 auto;
+}
+.card-img-top{
+    max-width: 100%;
+    max-height: 300px;
+}
+.card-img-overlay:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(80%);
+}
+.card-text{
+    background-color: #FF7F50;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.card-img-overlay{
+    padding:  15px 0;
+}
+.d-flex{
+    padding: 2px;
+}
+.flex-fill{
+    height: auto;
+}
+#portfolio{
+    min-height: 600px;
+    background-color: rgb(175,238,238);
+
+}
+.nav-link{
+    color: navy;
+}
+#contact{
+    margin-top: 50px;
+    min-height: 500px;
+    background-color: #AFEEEE;
+}
+.contact-img{
+    max-width: 50px;
+    max-height: auto;
+    padding: 0;
+    border: none;
+    margin-right: 5px;
+}
+.contact-img:hover{
+    background-color: #FF7F50;
+}
+
+footer{
+    max-height: 100px;
+}
+
+.resume{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 18px;
+}
+.resume:hover{
+    color: #FF7F50;
+}
+.resumeImg {
+    max-width: 1000px;
+    max-height: auto;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 640px) {
+    .heading, 
+    .welcome, 
+    .contact-head, 
+    h1, 
+    .lead{
+        width: 70%;
+    }
+    .display-4{
+        font-size: 25px; 
+    }
+    h2{
+        font-size: 20px;
+    }
+    .welcome{
+        font-size: 25px;
+        color: #191970;
+    }
+    .offset-6{
+        margin-right: 15px;
+    }
+  }
